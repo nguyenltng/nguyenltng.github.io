@@ -1,19 +1,11 @@
 /*!
 =========================================================
-* Steller Landing page
+* Landing page
 =========================================================
-
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// smooth scroll
 $(document).ready(function(){
+	
 	$(".nav-link").on('click', function(event) {
 
     	if (this.hash !== "") {
@@ -29,4 +21,10 @@ $(document).ready(function(){
 			});
       	} 
     });
+	$(".hire-me").on('click', function(event) {
+    	window.open('tel:0374370101');
+		return;
+    });
+
+
 });
