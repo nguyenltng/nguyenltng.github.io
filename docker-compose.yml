@@ -17,7 +17,7 @@ services:
     container_name: portfolio-nginx
     restart: unless-stopped
     ports:
-      - 8000:80
+      - 8001:80
     volumes:
       - ./:/var/www
       - ./docker-compose/nginx:/etc/nginx/conf.d

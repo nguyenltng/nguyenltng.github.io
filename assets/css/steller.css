@@ -11077,7 +11077,7 @@ pre {
 }
 
 .img-wrapper .overlay {
-  background: rgba(255, 122, 87, 0.7);
+  background: rgba(87, 233, 255, 0.7);
   position: absolute;
   left: 0;
   bottom: 100%;
@@ -11631,7 +11631,9 @@ pre {
 
 .section {
   position: relative;
-  padding: 5rem 0;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+
 }
 
 .section:nth-child(even) {

@@ -5,5 +5,5 @@
 */
 
 $(document).ready(function(){
-	$("#portfolio").load("/components/portfolio/index.html"); 
+	$("#portfolio").load("./components/portfolio/index.html"); 
 });
